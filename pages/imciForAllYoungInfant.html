@@ -20,6 +20,9 @@
 <!-- CSS Just for demo purpose, don't include it in your project -->
 <!-- <link href="../assets/demo/demo.css" rel="stylesheet" /> -->
  <style>
+    .debug{
+        border: 1px solid red;
+    }
     *{
         margin: 0;
         padding: 0;
@@ -63,12 +66,12 @@
     border-bottom: 30px solid black; /* Adjust color as needed */
     }
     .arrow-tail {
-    width: 100px;
+    width: 15px;
     height: 2px;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     position: absolute;
-    top: 20px;
-    left: 10px;
+    top: 47px;
+    left: 1px;
     }
     </style>
 </head>
@@ -360,16 +363,35 @@
                 </div>
             </div>
             <div class="row mt-3">
-                <div class="col-md-3 p-0 justify-content-center align-items-center" style="background-color: #FFA07A; color: #ffffff; " >
-                    <div>
-                        <h3 style="font-weight: 600; line-height: 1; margin: 0; padding: 15px;">Has The Infant Just Been Delivered?</h3>
+                <div class="col-md-3 p-0" style=" color: #ffffff; " >
+                    <div style="background-color: #FFA07A;">
+                        <h3 style=" font-weight: 600; line-height: 1.4; margin: 0; padding: 15px;">Has The Infant Just Been Delivered?</h3>
                     </div>
                 </div>
-                <!-- <div class="arrow-down"></div>
-                <div class="arrow-tail"></div> -->
-                <!-- <div class="pl-3">
-                    <div class=" arrow-right"></div>
-                </div> -->
+                <div class="col-md-2 d-flex  ">
+                    <div class="col-md-3 m-0  ">
+                        <!-- <div class="arrow-tail"></div> -->
+                        <div class="arrow-right"></div>
+                    </div>
+                    <div  style="color: #ffffff; font-weight: 700;"  class="col-md-7 ">
+                        <div style="display: grid; place-items: center; height: 95%; " class="text-center">
+                            <h4 style="font-weight: 600; padding: 5px;  background-color: #FFB6C1;" class="fw-bolder">NO</h4>
+                        </div>
+                    </div>
+                    <div class="col-md-3 m-0  ">
+                        <div class="arrow-right"></div>
+                    </div>
+                </div>
+                <div style="" class=" col-md-7">
+                    <ul style="width: 100%; padding: 13px ; padding-left: 25px; font-weight: 600; font-size: smaller; background-color: #FFB6C1; color: #ffffff;" >
+                        <li style="line-height: 1.5;"> Provide Emergency Newborn Care</li>
+                        <li style="line-height: 1.5;"> Resuscitate using the Helping Babies Breathe (HBB) approach</li>
+                        <li style="line-height: 1.5"> Keep baby warm</li>
+                        <li style="line-height: 1.5;"> ASSESS and CLASSIFY for POSSIBLE SERIOUS BACTERIAL INFECTION and provide any treatments</li>
+                        <li style="line-height: 1.5;"> Support mother to initiate breastfeeding</li>
+                        <li style="line-height: 1.5;"> Refer to maternity unit/hospital</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
